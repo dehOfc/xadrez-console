@@ -1,11 +1,9 @@
-﻿using Microsoft.VisualBasic;
-using System;
+﻿using System;
 
 namespace Tabuleiro
 {
-    internal class TabuleiroException : Exception
+    class TabuleiroException : Exception
     {
-
         public TabuleiroException(string msg) : base(msg) {
         }
     }
